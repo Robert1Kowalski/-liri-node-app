@@ -1,5 +1,5 @@
 require("dotenv").config();
-var keys = require("./key.js");
+var keys = require("./keys.js");
 var axios = require('axios');
 var Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
@@ -283,15 +283,7 @@ function doWhatItSays(search) {
     }
 }
 
-//What I still need to do:
-//Wire up bandsinTown API key;
-//Figure out spotify client ID troubles
-//Wire up Spotify API key
-
-
-
-
-
-
-
-
+// STILL BROKEN:
+//update readme
+//link spotify 
+//link bands api 
